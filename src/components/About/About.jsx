@@ -46,7 +46,7 @@ const About = () => {
                     'By the way, I like tennis, rap and games. Thats also classic, right?'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Yeah, and  I have been working since December 2020. Loving this tho!'}
+                  {paragraphThree || 'Yeah, and  I\'ve been working since December 2020. Loving this tho!'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

@@ -3,8 +3,8 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Burak Akkaya',
-  lang: '', 
-  description: 'Welcome to my inn', 
+  lang: '',
+  description: 'Welcome to my inn',
 };
 
 // HERO DATA
@@ -28,33 +28,39 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'tcm.png',
-    title: 'TCM',
-    info: 'Worked on product level SharePoint applications with the team.',
-    info2: 'Yes, first job. It was very exciting. There were about 15 people on my team. Projects were mostly turnkey. IAt the same time, I had the opportunity to work on a mobile application that was in development. The architecture of the project was developed with microservices and .NET Core. ',
-    url: 'https://www.tcm.com.tr/',
+    img: 'pingpong.jpeg',
+    title: 'PingPong',
+    info: 'Newest technologies. Amazing team with experienced engineers. I got to use Macbook here :P. Also we have PS5 in our office!',
+    info2: `We have a mobile app. That\'s it. 60+ people working on it. We write ASP.NET Core for our backend. PostgreSQL is our main database. 
+      ElasticSearch, Redis and HealtCheck is also on the table. My first time with Dapper, going great with writing SQL's. 
+      Also, unit tests are very important to us using xUnit.
+      We use Scrum as software methodology with Azure DevOps. Also, we use Jira.
+      `,
+    url: 'https://pingpong.university/',
     repo: '', // if no repo, the button will not show up
-    dates: 'December 2020 - May 2021'
+    dates: 'May 2022 - Present',
   },
   {
     id: nanoid(),
     img: 'udentify.jpg',
     title: 'Udentify',
     info: 'I always wanted to work in a startup. Great team, unique business. I miss them!',
-    info2: 'Our app was about data. We mostly used ASP.NET, ASP.NET Core for development. We stored those data in SQL Server and MongoDB. Also I developed the front-end(HTML, CSS, JavaScript, jQuery) for our MVC admin panel. I was also writing Python scripts for automation or integration.',
+    info2:
+      'Our app was about data. We mostly used ASP.NET, ASP.NET Core for development. We stored those data in SQL Server and MongoDB. Also I developed the front-end(HTML, CSS, JavaScript, jQuery) for our MVC admin panel. I was also writing Python scripts for automation or integration.',
     url: 'http://udentify.co/',
     repo: '', // if no repo, the button will not show up
-    dates: 'June 2021 - March 2022'
+    dates: 'June 2021 - April 2022',
   },
   {
     id: nanoid(),
-    img: 'obss.jpg',
-    title: 'ING Bank (via OBSS)',
-    info: 'At the same time, I wanted to see how things work in a corporate company. Really big structures, a lot going on.',
-    info2: 'Working on treasure integration squad. There is an application in the bank that is used for almost all the needs of the customers.. Renewing the pages with mostly HTML, CSS and JavaScript. Services are ASP.NET and Java (Spring Boot). Oracle and SQLServer are the main databases. We use Scrum as a software methodology with Azure DevOps. Also, inside OBSS, we use Jira.',
-    url: 'https://obss.com.tr/tr/',
+    img: 'tcm.png',
+    title: 'TCM',
+    info: 'Worked on product level SharePoint applications with the team.',
+    info2:
+      'Yes, first job. It was very exciting. There were about 15 people on my team. Projects were mostly turnkey. IAt the same time, I had the opportunity to work on a mobile application that was in development. The architecture of the project was developed with microservices and .NET Core. ',
+    url: 'https://www.tcm.com.tr/',
     repo: '', // if no repo, the button will not show up
-    dates: 'April 2022 - Present'
+    dates: 'December 2020 - May 2021',
   },
 ];
 
