@@ -37,7 +37,7 @@ export const projectsData = [
       `,
     url: 'https://byfood.com/',
     repo: '', // if no repo, the button will not show up
-    dates: 'May 2022 - Present',
+    dates: 'January 2023 - Present',
   },
   {
     id: nanoid(),
