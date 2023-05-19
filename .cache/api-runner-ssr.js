@@ -1,18 +1,18 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/burakakkaya/Desktop/gatsby-simplefolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/burakakkaya/Desktop/my-react-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-offline',
-      plugin: require('/Users/burakakkaya/Desktop/gatsby-simplefolio/node_modules/gatsby-plugin-offline/gatsby-ssr.js'),
+      plugin: require('/Users/burakakkaya/Desktop/my-react-website/node_modules/gatsby-plugin-offline/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('/Users/burakakkaya/Desktop/gatsby-simplefolio/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
+      plugin: require('/Users/burakakkaya/Desktop/my-react-website/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
       options: {"plugins":[],"name":"Gatsby Simplefolio","short_name":"Simplefolio","start_url":"/","background_color":"#fff","theme_color":"#02aab0","display":"standalone","icon":"src/images/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"397c55a076af8ef13401931d7e796bfc"},
     },{
       name: 'partytown',
-      plugin: require('/Users/burakakkaya/Desktop/gatsby-simplefolio/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('/Users/burakakkaya/Desktop/my-react-website/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */

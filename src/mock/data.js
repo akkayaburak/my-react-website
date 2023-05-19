@@ -28,17 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'byfood.png',
+    title: 'byFood',
+    info: 'byFood is the best Gastronomy Tourism Start-up in the world!',
+    info2: `We have a small, warm, international team. I am working as a Full Stack Engineer.
+            With MySQL as database, Golang is great with Gorm!
+            Also, we really like React with Typescript.  
+      `,
+    url: 'https://byfood.com/',
+    repo: '', // if no repo, the button will not show up
+    dates: 'May 2022 - Present',
+  },
+  {
+    id: nanoid(),
     img: 'pingpong.jpeg',
     title: 'PingPong',
     info: 'Newest technologies. Amazing team with experienced engineers. I got to use Macbook here :P. Also we have PS5 in our office!',
-    info2: `We have a mobile app. That\'s it. 60+ people working on it. We write ASP.NET Core for our backend. PostgreSQL is our main database. 
-      ElasticSearch, Redis and HealtCheck is also on the table. My first time with Dapper, going great with writing SQL's. 
-      Also, unit tests are very important to us using xUnit.
-      We use Scrum as software methodology with Azure DevOps. Also, we use Jira.
+    info2: `We had a mobile app. That\'s it. 60+ people were working on it, thousands using it! We were writing ASP.NET Core for our backend. PostgreSQL was our main database. 
+      ElasticSearch, Redis and HealtCheck were also on the table. My first time with Dapper, it was great with writing SQL's. 
+      Also, unit tests were very important to us using xUnit.
+      We were using Scrum as software methodology with Azure DevOps. Also, we were using Jira.
       `,
     url: 'https://pingpong.university/',
     repo: '', // if no repo, the button will not show up
-    dates: 'May 2022 - Present',
+    dates: 'May 2022 - December 2022',
   },
   {
     id: nanoid(),
@@ -57,7 +70,7 @@ export const projectsData = [
     title: 'TCM',
     info: 'Worked on product level SharePoint applications with the team.',
     info2:
-      'Yes, first job. It was very exciting. There were about 15 people on my team. Projects were mostly turnkey. IAt the same time, I had the opportunity to work on a mobile application that was in development. The architecture of the project was developed with microservices and .NET Core. ',
+      'Yes, first job. It was very exciting. There were about 15 people on my team. Projects were mostly turnkey. At the same time, I had the opportunity to work on a mobile application that was in development. The architecture of the project was developed with microservices and .NET Core. ',
     url: 'https://www.tcm.com.tr/',
     repo: '', // if no repo, the button will not show up
     dates: 'December 2020 - May 2021',
